@@ -1,7 +1,1 @@
-[
-    {
-        "title":"Test Title",
-        "text":"Test text",
-        "id": "0"
-    }
-]
+[{"title":"Test Note Title","text":"Test Note text","id":"0"},{"title":"dsfdsf","text":"dsfdsf","id":"1"},{"title":"sdfdsf","text":"sdfsd","id":"2"},{"title":"sdfds","text":"sdfs","id":"3"},{"title":"test","text":"this is a test note\nThe db is being updated but when I try to find it by its id, it does not work","id":"4"}]
