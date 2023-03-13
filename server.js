@@ -29,4 +29,8 @@ app.post('/api/notes', (req, res) => {
     notesData.push(newNote);
     fs.writeFileSync('./db/db.json', JSON.stringify(notesData));
     res.json(newNote);
-})
+});
+
+app.listen(port, () => {
+    console.log(`listening at http://localhost:${port}`)
+});
