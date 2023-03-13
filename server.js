@@ -21,3 +21,12 @@ app.get('/', (req, res) => {
 app.get('/notes', (req, res) => {
     res.sendFile(path.join(__dirname, '/public/notes.html'))
 });
+
+app.post('/api/notes', (req, res) => {
+    const newNote = req.body;
+    const id = notesData.length.toString();
+    newNote.id = id;
+    notesData.push(newNote);
+    fs.writeFileSync('./db/db.json', JSON.stringify(notesData));
+    res.json(newNote);
+})
