@@ -3,7 +3,7 @@ const fs = require('fs');
 const path = require('path');
 const notesData = require('./db/db.json');
 const app = express();
-const port = process.env.Port || 3001;
+const PORT = process.env.PORT || 3001;
 
 app.use(express.json());
 app.use(express.static('public'));
@@ -31,6 +31,6 @@ app.post('/api/notes', (req, res) => {
     res.json(newNote);
 });
 
-app.listen(port, () => {
-    console.log(`listening at http://localhost:${port}`)
+app.listen(PORT, () => {
+    console.log(`listening at http://localhost:${PORT}`)
 });
