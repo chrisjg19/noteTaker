@@ -20,6 +20,8 @@
 
   ## Test
   If you would like you can see the deployed page as well on Heroku [Link to deployed app](https://notetakerbasic.herokuapp.com/notes)
+  ![starting](./public/assets/initialpage.PNG)
+  ![savingText](./public/assets/savingText.PNG)
 
   ## Questions
   For any questions or inquires you can reach me at Email: christopher.gonzalez98@gmail.com
