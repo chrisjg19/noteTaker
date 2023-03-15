@@ -19,7 +19,7 @@
   
 
   ## Test
-  If you would like you can see the deployed page as well on Heroku ![LInk to Video](https://notetakerbasic.herokuapp.com/notes)
+  If you would like you can see the deployed page as well on Heroku [Link to Video]"(https://notetakerbasic.herokuapp.com/notes)"
 
   ## Questions
   For any questions or inquires you can reach me at Email: christopher.gonzalez98@gmail.com
